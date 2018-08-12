@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20AEA1FEBC43EB33110B05EC /* Pods_Torun_ski_Przewodnik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5039B09ECB9F9F03DE316E05 /* Pods_Torun_ski_Przewodnik.framework */; };
+		CE23F06E21108AD400BDBEB5 /* LocalPlaceChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23F06D21108AD400BDBEB5 /* LocalPlaceChooseViewController.swift */; };
+		CE23F07021108CF000BDBEB5 /* LocalPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23F06F21108CF000BDBEB5 /* LocalPlacesViewController.swift */; };
+		CE2BB242210BA15E00723EAC /* InterestingPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2BB241210BA15E00723EAC /* InterestingPlace.swift */; };
+		CE2E9BFB2111D7D10057D210 /* LocalPlaceARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E9BFA2111D7D10057D210 /* LocalPlaceARViewController.swift */; };
+		CE623567210B2EA800BAC601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE623566210B2EA800BAC601 /* AppDelegate.swift */; };
+		CE62356C210B2EA800BAC601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE62356A210B2EA800BAC601 /* Main.storyboard */; };
+		CE62356E210B2EB600BAC601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62356D210B2EB600BAC601 /* Assets.xcassets */; };
+		CE623571210B2EB700BAC601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE62356F210B2EB700BAC601 /* LaunchScreen.storyboard */; };
+		CE62357A210B2F8600BAC601 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE623579210B2F8600BAC601 /* NavigationBar.swift */; };
+		CE62357C210B396300BAC601 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62357B210B396300BAC601 /* HomeViewController.swift */; };
+		CE62357E210B3A9F00BAC601 /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62357D210B3A9F00BAC601 /* NavigationItem.swift */; };
+		CE623580210B3ADD00BAC601 /* InterestingPlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62357F210B3ADD00BAC601 /* InterestingPlacesView.swift */; };
+		CEA6D9F8210F0D6900159BDA /* PlacesPickController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6D9F7210F0D6900159BDA /* PlacesPickController.swift */; };
+		CEA6D9FA210F0D8D00159BDA /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6D9F9210F0D8D00159BDA /* PlaceCell.swift */; };
+		CEA6D9FC210F46B600159BDA /* PlacesMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA6D9FB210F46B600159BDA /* PlacesMedia.xcassets */; };
+		CECC8209210F85D800F54C13 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC8208210F85D800F54C13 /* BubbleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18EFB8B4601D66F93F1AE64D /* Pods-Toruński Przewodnik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toruński Przewodnik.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Toruński Przewodnik/Pods-Toruński Przewodnik.debug.xcconfig"; sourceTree = "<group>"; };
+		3A714CC405E89788A7709F63 /* Pods-Toruński Przewodnik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toruński Przewodnik.release.xcconfig"; path = "Pods/Target Support Files/Pods-Toruński Przewodnik/Pods-Toruński Przewodnik.release.xcconfig"; sourceTree = "<group>"; };
+		5039B09ECB9F9F03DE316E05 /* Pods_Torun_ski_Przewodnik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Torun_ski_Przewodnik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE23F06D21108AD400BDBEB5 /* LocalPlaceChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPlaceChooseViewController.swift; sourceTree = "<group>"; };
+		CE23F06F21108CF000BDBEB5 /* LocalPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPlacesViewController.swift; sourceTree = "<group>"; };
+		CE2BB241210BA15E00723EAC /* InterestingPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingPlace.swift; sourceTree = "<group>"; usesTabs = 0; };
+		CE2E9BFA2111D7D10057D210 /* LocalPlaceARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalPlaceARViewController.swift; path = "Toruński Przewodnik/ViewControllers/LocalPlaceARViewController.swift"; sourceTree = SOURCE_ROOT; };
+		CE623563210B2EA800BAC601 /* Toruński Przewodnik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toruński Przewodnik.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE623566210B2EA800BAC601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE62356B210B2EA800BAC601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE62356D210B2EB600BAC601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE623570210B2EB700BAC601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE623572210B2EB700BAC601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE623579210B2F8600BAC601 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		CE62357B210B396300BAC601 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CE62357D210B3A9F00BAC601 /* NavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
+		CE62357F210B3ADD00BAC601 /* InterestingPlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingPlacesView.swift; sourceTree = "<group>"; };
+		CEA6D9F7210F0D6900159BDA /* PlacesPickController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesPickController.swift; sourceTree = "<group>"; };
+		CEA6D9F9210F0D8D00159BDA /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
+		CEA6D9FB210F46B600159BDA /* PlacesMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PlacesMedia.xcassets; sourceTree = "<group>"; };
+		CECC8208210F85D800F54C13 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE623560210B2EA800BAC601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AEA1FEBC43EB33110B05EC /* Pods_Torun_ski_Przewodnik.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E6FD9AD72A4E22CC926AA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5039B09ECB9F9F03DE316E05 /* Pods_Torun_ski_Przewodnik.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE23F06621108A3400BDBEB5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E9BFA2111D7D10057D210 /* LocalPlaceARViewController.swift */,
+				CE62357B210B396300BAC601 /* HomeViewController.swift */,
+				CEA6D9F7210F0D6900159BDA /* PlacesPickController.swift */,
+				CE62357F210B3ADD00BAC601 /* InterestingPlacesView.swift */,
+				CE23F06D21108AD400BDBEB5 /* LocalPlaceChooseViewController.swift */,
+				CE23F06F21108CF000BDBEB5 /* LocalPlacesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE23F06721108A5700BDBEB5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CE62356A210B2EA800BAC601 /* Main.storyboard */,
+				CE62356F210B2EB700BAC601 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE23F06821108A6700BDBEB5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CECC8208210F85D800F54C13 /* BubbleView.swift */,
+				CE2BB241210BA15E00723EAC /* InterestingPlace.swift */,
+				CEA6D9F9210F0D8D00159BDA /* PlaceCell.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CE62355A210B2EA800BAC601 = {
+			isa = PBXGroup;
+			children = (
+				CE623565210B2EA800BAC601 /* Toruński Przewodnik */,
+				CE623564210B2EA800BAC601 /* Products */,
+				FD51762C40B91D849F3588AB /* Pods */,
+				00E6FD9AD72A4E22CC926AA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE623564210B2EA800BAC601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE623563210B2EA800BAC601 /* Toruński Przewodnik.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE623565210B2EA800BAC601 /* Toruński Przewodnik */ = {
+			isa = PBXGroup;
+			children = (
+				CE23F06821108A6700BDBEB5 /* Utils */,
+				CE23F06721108A5700BDBEB5 /* Storyboards */,
+				CE23F06621108A3400BDBEB5 /* ViewControllers */,
+				CE623578210B2F6800BAC601 /* view */,
+				CE623566210B2EA800BAC601 /* AppDelegate.swift */,
+				CE62356D210B2EB600BAC601 /* Assets.xcassets */,
+				CEA6D9FB210F46B600159BDA /* PlacesMedia.xcassets */,
+				CE623572210B2EB700BAC601 /* Info.plist */,
+			);
+			path = "Toruński Przewodnik";
+			sourceTree = "<group>";
+		};
+		CE623578210B2F6800BAC601 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE623579210B2F8600BAC601 /* NavigationBar.swift */,
+				CE62357D210B3A9F00BAC601 /* NavigationItem.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FD51762C40B91D849F3588AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18EFB8B4601D66F93F1AE64D /* Pods-Toruński Przewodnik.debug.xcconfig */,
+				3A714CC405E89788A7709F63 /* Pods-Toruński Przewodnik.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE623562210B2EA800BAC601 /* Toruński Przewodnik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE623575210B2EB700BAC601 /* Build configuration list for PBXNativeTarget "Toruński Przewodnik" */;
+			buildPhases = (
+				8728F8A702964737DE73891C /* [CP] Check Pods Manifest.lock */,
+				CE62355F210B2EA800BAC601 /* Sources */,
+				CE623560210B2EA800BAC601 /* Frameworks */,
+				CE623561210B2EA800BAC601 /* Resources */,
+				5EEAF698B6D282E24BDCFFAB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toruński Przewodnik";
+			productName = "Toruński Przewodnik";
+			productReference = CE623563210B2EA800BAC601 /* Toruński Przewodnik.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE62355B210B2EA800BAC601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Arkadiusz Staśczak";
+				TargetAttributes = {
+					CE623562210B2EA800BAC601 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = CE62355E210B2EA800BAC601 /* Build configuration list for PBXProject "Toruński Przewodnik" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE62355A210B2EA800BAC601;
+			productRefGroup = CE623564210B2EA800BAC601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE623562210B2EA800BAC601 /* Toruński Przewodnik */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE623561210B2EA800BAC601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA6D9FC210F46B600159BDA /* PlacesMedia.xcassets in Resources */,
+				CE623571210B2EB700BAC601 /* LaunchScreen.storyboard in Resources */,
+				CE62356E210B2EB600BAC601 /* Assets.xcassets in Resources */,
+				CE62356C210B2EA800BAC601 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EEAF698B6D282E24BDCFFAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Toruński Przewodnik/Pods-Toruński Przewodnik-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Toruński Przewodnik/Pods-Toruński Przewodnik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8728F8A702964737DE73891C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Toruński Przewodnik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE62355F210B2EA800BAC601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE23F07021108CF000BDBEB5 /* LocalPlacesViewController.swift in Sources */,
+				CEA6D9FA210F0D8D00159BDA /* PlaceCell.swift in Sources */,
+				CE623580210B3ADD00BAC601 /* InterestingPlacesView.swift in Sources */,
+				CE23F06E21108AD400BDBEB5 /* LocalPlaceChooseViewController.swift in Sources */,
+				CE623567210B2EA800BAC601 /* AppDelegate.swift in Sources */,
+				CE62357A210B2F8600BAC601 /* NavigationBar.swift in Sources */,
+				CE2E9BFB2111D7D10057D210 /* LocalPlaceARViewController.swift in Sources */,
+				CEA6D9F8210F0D6900159BDA /* PlacesPickController.swift in Sources */,
+				CE2BB242210BA15E00723EAC /* InterestingPlace.swift in Sources */,
+				CECC8209210F85D800F54C13 /* BubbleView.swift in Sources */,
+				CE62357E210B3A9F00BAC601 /* NavigationItem.swift in Sources */,
+				CE62357C210B396300BAC601 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE62356A210B2EA800BAC601 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE62356B210B2EA800BAC601 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE62356F210B2EB700BAC601 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE623570210B2EB700BAC601 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE623573210B2EB700BAC601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE623574210B2EB700BAC601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE623576210B2EB700BAC601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EFB8B4601D66F93F1AE64D /* Pods-Toruński Przewodnik.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27WF3M3X85;
+				INFOPLIST_FILE = "Toruński Przewodnik/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WMiI-UMK.Torun-ski-Przewodnik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE623577210B2EB700BAC601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A714CC405E89788A7709F63 /* Pods-Toruński Przewodnik.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27WF3M3X85;
+				INFOPLIST_FILE = "Toruński Przewodnik/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WMiI-UMK.Torun-ski-Przewodnik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE62355E210B2EA800BAC601 /* Build configuration list for PBXProject "Toruński Przewodnik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE623573210B2EB700BAC601 /* Debug */,
+				CE623574210B2EB700BAC601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE623575210B2EB700BAC601 /* Build configuration list for PBXNativeTarget "Toruński Przewodnik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE623576210B2EB700BAC601 /* Debug */,
+				CE623577210B2EB700BAC601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE62355B210B2EA800BAC601 /* Project object */;
+}

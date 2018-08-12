@@ -1,0 +1,34 @@
+PODS:
+  - ARCL (1.0.2)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - Material (2.10.4):
+    - Material/Core (= 2.10.4)
+  - Material/Core (2.10.4)
+  - Motion (1.4.0):
+    - Motion/Core (= 1.4.0)
+  - Motion/Core (1.4.0)
+
+DEPENDENCIES:
+  - ARCL
+  - ChameleonFramework
+  - Material
+  - Motion
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ARCL
+    - ChameleonFramework
+    - Material
+    - Motion
+
+SPEC CHECKSUMS:
+  ARCL: 88300cadfbdd6a9288ca17ad18d3ac972d6cb1e6
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Material: b00499e2c68738173cc8a460057d084ae33828fa
+  Motion: 6d812ce71efcaac170d7f98bd6bcea847426f59e
+
+PODFILE CHECKSUM: b4c2c05dcd2334077138de8ee28cea1e137ab3f3
+
+COCOAPODS: 1.5.0
