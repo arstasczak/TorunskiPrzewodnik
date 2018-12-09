@@ -7,11 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20AEA1FEBC43EB33110B05EC /* Pods_Torun_ski_Przewodnik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5039B09ECB9F9F03DE316E05 /* Pods_Torun_ski_Przewodnik.framework */; };
+		CE0D707E217A5AC400FE85F5 /* OwnPlaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0D707D217A5AC400FE85F5 /* OwnPlaces.storyboard */; };
+		CE0D7087217A5CE900FE85F5 /* OwnPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D7086217A5CE900FE85F5 /* OwnPlaceViewController.swift */; };
+		CE0D7089217A5D1600FE85F5 /* InterestingPlaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0D7088217A5D1600FE85F5 /* InterestingPlaces.storyboard */; };
+		CE0D708B217A5D6500FE85F5 /* LocalPlaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0D708A217A5D6500FE85F5 /* LocalPlaces.storyboard */; };
+		CE0D708D217A5DA900FE85F5 /* ImageScan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0D708C217A5DA900FE85F5 /* ImageScan.storyboard */; };
+		CE0D708F217A5E8A00FE85F5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D708E217A5E8A00FE85F5 /* Helper.swift */; };
+		CE1B32F0218788AD0019AD02 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B32EF218788AD0019AD02 /* WebViewViewController.swift */; };
+		CE1D01682176666F006FE2CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE1D01672176666F006FE2CE /* GoogleService-Info.plist */; };
+		CE1D016A2176666F006FE2CE /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1D01692176666F006FE2CE /* GoogleToolboxForMac.framework */; };
+		CE1D016C2176666F006FE2CE /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1D016B2176666F006FE2CE /* nanopb.framework */; };
+		CE1E7C14217C80E700EB9E7A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E7C13217C80E700EB9E7A /* GradientView.swift */; };
 		CE23F06E21108AD400BDBEB5 /* LocalPlaceChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23F06D21108AD400BDBEB5 /* LocalPlaceChooseViewController.swift */; };
 		CE23F07021108CF000BDBEB5 /* LocalPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23F06F21108CF000BDBEB5 /* LocalPlacesViewController.swift */; };
+		CE25A7E2217A725300944719 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25A7E1217A725300944719 /* MainCell.swift */; };
+		CE25A7E4217A725300944719 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25A7E3217A725300944719 /* Extensions.swift */; };
 		CE2BB242210BA15E00723EAC /* InterestingPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2BB241210BA15E00723EAC /* InterestingPlace.swift */; };
 		CE2E9BFB2111D7D10057D210 /* LocalPlaceARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E9BFA2111D7D10057D210 /* LocalPlaceARViewController.swift */; };
+		CE33ED532156C1B6000CDDC4 /* ImageScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33ED522156C1B6000CDDC4 /* ImageScanViewController.swift */; };
+		CE394E8C2157FD6700E37D05 /* TorunFilm.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CE9D811D2157F21F00E57F86 /* TorunFilm.mp4 */; };
+		CE44A22821A07AD9004273EE /* CaviarDreams-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE44A22421A07AC2004273EE /* CaviarDreams-Black.ttf */; };
+		CE44A22921A07AD9004273EE /* CaviarDreams-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE44A22721A07AC3004273EE /* CaviarDreams-BlackItalic.ttf */; };
+		CE44A22A21A07AD9004273EE /* CaviarDreams-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE44A21F21A07AC1004273EE /* CaviarDreams-Bold.ttf */; };
+		CE44A22B21A07AD9004273EE /* CaviarDreams-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE44A22021A07AC1004273EE /* CaviarDreams-BoldItalic.ttf */; };
+		CE44A22C21A07AD9004273EE /* CaviarDreams-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE44A22521A07AC2004273EE /* CaviarDreams-Hairline.ttf */; };
+		CE44A22D21A07AD9004273EE /* CaviarDreams-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE44A21E21A07AC1004273EE /* CaviarDreams-HairlineItalic.ttf */; };
+		CE44A22E21A07AD9004273EE /* CaviarDreams-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE44A22121A07AC2004273EE /* CaviarDreams-Italic.ttf */; };
+		CE44A22F21A07AD9004273EE /* CaviarDreams-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE44A22321A07AC2004273EE /* CaviarDreams-Light.ttf */; };
+		CE44A23021A07AD9004273EE /* CaviarDreams-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE44A22621A07AC2004273EE /* CaviarDreams-LightItalic.ttf */; };
+		CE44A23121A07AD9004273EE /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE44A22221A07AC2004273EE /* CaviarDreams.ttf */; };
 		CE623567210B2EA800BAC601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE623566210B2EA800BAC601 /* AppDelegate.swift */; };
 		CE62356C210B2EA800BAC601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE62356A210B2EA800BAC601 /* Main.storyboard */; };
 		CE62356E210B2EB600BAC601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62356D210B2EB600BAC601 /* Assets.xcassets */; };
@@ -20,9 +44,15 @@
 		CE62357C210B396300BAC601 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62357B210B396300BAC601 /* HomeViewController.swift */; };
 		CE62357E210B3A9F00BAC601 /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62357D210B3A9F00BAC601 /* NavigationItem.swift */; };
 		CE623580210B3ADD00BAC601 /* InterestingPlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62357F210B3ADD00BAC601 /* InterestingPlacesView.swift */; };
-		CEA6D9F8210F0D6900159BDA /* PlacesPickController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6D9F7210F0D6900159BDA /* PlacesPickController.swift */; };
+		CE9B33EC212B0C1700F9A2D6 /* InterestingPlacesChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B33EB212B0C1700F9A2D6 /* InterestingPlacesChooseViewController.swift */; };
+		CE9CDD28215710C50063A8D8 /* ARCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9CDD27215710C50063A8D8 /* ARCL.framework */; };
+		CE9CDD2A215710C50063A8D8 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9CDD29215710C50063A8D8 /* ChameleonFramework.framework */; };
+		CE9CDD2C215710C50063A8D8 /* FontAwesome_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9CDD2B215710C50063A8D8 /* FontAwesome_swift.framework */; };
+		CE9CDD2E215710C50063A8D8 /* Motion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9CDD2D215710C50063A8D8 /* Motion.framework */; };
 		CEA6D9FA210F0D8D00159BDA /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6D9F9210F0D8D00159BDA /* PlaceCell.swift */; };
 		CEA6D9FC210F46B600159BDA /* PlacesMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA6D9FB210F46B600159BDA /* PlacesMedia.xcassets */; };
+		CEC40266217CA8E30072691C /* TorunskiPrzewodnik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEC40264217CA8E30072691C /* TorunskiPrzewodnik.xcdatamodeld */; };
+		CEC40269217CAEA90072691C /* AddOwnPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC40268217CAEA90072691C /* AddOwnPlacesViewController.swift */; };
 		CECC8209210F85D800F54C13 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC8208210F85D800F54C13 /* BubbleView.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,10 +60,34 @@
 		18EFB8B4601D66F93F1AE64D /* Pods-Toruński Przewodnik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toruński Przewodnik.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Toruński Przewodnik/Pods-Toruński Przewodnik.debug.xcconfig"; sourceTree = "<group>"; };
 		3A714CC405E89788A7709F63 /* Pods-Toruński Przewodnik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toruński Przewodnik.release.xcconfig"; path = "Pods/Target Support Files/Pods-Toruński Przewodnik/Pods-Toruński Przewodnik.release.xcconfig"; sourceTree = "<group>"; };
 		5039B09ECB9F9F03DE316E05 /* Pods_Torun_ski_Przewodnik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Torun_ski_Przewodnik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0D707D217A5AC400FE85F5 /* OwnPlaces.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OwnPlaces.storyboard; sourceTree = "<group>"; };
+		CE0D7086217A5CE900FE85F5 /* OwnPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnPlaceViewController.swift; sourceTree = "<group>"; };
+		CE0D7088217A5D1600FE85F5 /* InterestingPlaces.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InterestingPlaces.storyboard; sourceTree = "<group>"; };
+		CE0D708A217A5D6500FE85F5 /* LocalPlaces.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LocalPlaces.storyboard; sourceTree = "<group>"; };
+		CE0D708C217A5DA900FE85F5 /* ImageScan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageScan.storyboard; sourceTree = "<group>"; };
+		CE0D708E217A5E8A00FE85F5 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CE1B32EF218788AD0019AD02 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		CE1D01672176666F006FE2CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE1D01692176666F006FE2CE /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1D016B2176666F006FE2CE /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1E7C13217C80E700EB9E7A /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = "Gradient-View-master/GradientView.swift"; sourceTree = SOURCE_ROOT; };
 		CE23F06D21108AD400BDBEB5 /* LocalPlaceChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPlaceChooseViewController.swift; sourceTree = "<group>"; };
 		CE23F06F21108CF000BDBEB5 /* LocalPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPlacesViewController.swift; sourceTree = "<group>"; };
+		CE25A7E1217A725300944719 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		CE25A7E3217A725300944719 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CE2BB241210BA15E00723EAC /* InterestingPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingPlace.swift; sourceTree = "<group>"; usesTabs = 0; };
-		CE2E9BFA2111D7D10057D210 /* LocalPlaceARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalPlaceARViewController.swift; path = "Toruński Przewodnik/ViewControllers/LocalPlaceARViewController.swift"; sourceTree = SOURCE_ROOT; };
+		CE2E9BFA2111D7D10057D210 /* LocalPlaceARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalPlaceARViewController.swift; path = "Toruński Przewodnik/ViewControllers/Local Place/LocalPlaceARViewController.swift"; sourceTree = SOURCE_ROOT; };
+		CE33ED522156C1B6000CDDC4 /* ImageScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScanViewController.swift; sourceTree = "<group>"; };
+		CE44A21E21A07AC1004273EE /* CaviarDreams-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CaviarDreams-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		CE44A21F21A07AC1004273EE /* CaviarDreams-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CaviarDreams-Bold.ttf"; sourceTree = "<group>"; };
+		CE44A22021A07AC1004273EE /* CaviarDreams-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CaviarDreams-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE44A22121A07AC2004273EE /* CaviarDreams-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CaviarDreams-Italic.ttf"; sourceTree = "<group>"; };
+		CE44A22221A07AC2004273EE /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		CE44A22321A07AC2004273EE /* CaviarDreams-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CaviarDreams-Light.ttf"; sourceTree = "<group>"; };
+		CE44A22421A07AC2004273EE /* CaviarDreams-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CaviarDreams-Black.ttf"; sourceTree = "<group>"; };
+		CE44A22521A07AC2004273EE /* CaviarDreams-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CaviarDreams-Hairline.ttf"; sourceTree = "<group>"; };
+		CE44A22621A07AC2004273EE /* CaviarDreams-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CaviarDreams-LightItalic.ttf"; sourceTree = "<group>"; };
+		CE44A22721A07AC3004273EE /* CaviarDreams-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CaviarDreams-BlackItalic.ttf"; sourceTree = "<group>"; };
 		CE623563210B2EA800BAC601 /* Toruński Przewodnik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toruński Przewodnik.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE623566210B2EA800BAC601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE62356B210B2EA800BAC601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,9 +98,16 @@
 		CE62357B210B396300BAC601 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CE62357D210B3A9F00BAC601 /* NavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
 		CE62357F210B3ADD00BAC601 /* InterestingPlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingPlacesView.swift; sourceTree = "<group>"; };
-		CEA6D9F7210F0D6900159BDA /* PlacesPickController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesPickController.swift; sourceTree = "<group>"; };
+		CE9B33EB212B0C1700F9A2D6 /* InterestingPlacesChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingPlacesChooseViewController.swift; sourceTree = "<group>"; };
+		CE9CDD27215710C50063A8D8 /* ARCL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ARCL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9CDD29215710C50063A8D8 /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9CDD2B215710C50063A8D8 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9CDD2D215710C50063A8D8 /* Motion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Motion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9D811D2157F21F00E57F86 /* TorunFilm.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TorunFilm.mp4; sourceTree = "<group>"; };
 		CEA6D9F9210F0D8D00159BDA /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
 		CEA6D9FB210F46B600159BDA /* PlacesMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PlacesMedia.xcassets; sourceTree = "<group>"; };
+		CEC40265217CA8E30072691C /* TorunskiPrzewodnik.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TorunskiPrzewodnik.xcdatamodel; sourceTree = "<group>"; };
+		CEC40268217CAEA90072691C /* AddOwnPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddOwnPlacesViewController.swift; path = "/Users/arstasczak/Desktop/Toruński Przewodnik/Toruński Przewodnik/ViewControllers/Own place/AddOwnPlacesViewController.swift"; sourceTree = "<absolute>"; };
 		CECC8208210F85D800F54C13 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,7 +116,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20AEA1FEBC43EB33110B05EC /* Pods_Torun_ski_Przewodnik.framework in Frameworks */,
+				CE1D016A2176666F006FE2CE /* GoogleToolboxForMac.framework in Frameworks */,
+				CE1D016C2176666F006FE2CE /* nanopb.framework in Frameworks */,
+				CE9CDD28215710C50063A8D8 /* ARCL.framework in Frameworks */,
+				CE9CDD2A215710C50063A8D8 /* ChameleonFramework.framework in Frameworks */,
+				CE9CDD2C215710C50063A8D8 /* FontAwesome_swift.framework in Frameworks */,
+				CE9CDD2E215710C50063A8D8 /* Motion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,20 +131,87 @@
 		00E6FD9AD72A4E22CC926AA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE1D01692176666F006FE2CE /* GoogleToolboxForMac.framework */,
+				CE1D016B2176666F006FE2CE /* nanopb.framework */,
+				CE9CDD27215710C50063A8D8 /* ARCL.framework */,
+				CE9CDD29215710C50063A8D8 /* ChameleonFramework.framework */,
+				CE9CDD2B215710C50063A8D8 /* FontAwesome_swift.framework */,
+				CE9CDD2D215710C50063A8D8 /* Motion.framework */,
 				5039B09ECB9F9F03DE316E05 /* Pods_Torun_ski_Przewodnik.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CE23F06621108A3400BDBEB5 /* ViewControllers */ = {
+		CE0D707F217A5C9000FE85F5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CE62357B210B396300BAC601 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CE0D7080217A5C9700FE85F5 /* Interesting Place */ = {
+			isa = PBXGroup;
+			children = (
+				CE62357F210B3ADD00BAC601 /* InterestingPlacesView.swift */,
+				CE9B33EB212B0C1700F9A2D6 /* InterestingPlacesChooseViewController.swift */,
+			);
+			path = "Interesting Place";
+			sourceTree = "<group>";
+		};
+		CE0D7081217A5CA900FE85F5 /* Local Place */ = {
 			isa = PBXGroup;
 			children = (
 				CE2E9BFA2111D7D10057D210 /* LocalPlaceARViewController.swift */,
-				CE62357B210B396300BAC601 /* HomeViewController.swift */,
-				CEA6D9F7210F0D6900159BDA /* PlacesPickController.swift */,
-				CE62357F210B3ADD00BAC601 /* InterestingPlacesView.swift */,
-				CE23F06D21108AD400BDBEB5 /* LocalPlaceChooseViewController.swift */,
 				CE23F06F21108CF000BDBEB5 /* LocalPlacesViewController.swift */,
+				CE23F06D21108AD400BDBEB5 /* LocalPlaceChooseViewController.swift */,
+			);
+			path = "Local Place";
+			sourceTree = "<group>";
+		};
+		CE0D7084217A5CC400FE85F5 /* Interactive place */ = {
+			isa = PBXGroup;
+			children = (
+				CE33ED522156C1B6000CDDC4 /* ImageScanViewController.swift */,
+				CE1B32EF218788AD0019AD02 /* WebViewViewController.swift */,
+			);
+			path = "Interactive place";
+			sourceTree = "<group>";
+		};
+		CE0D7085217A5CCE00FE85F5 /* Own place */ = {
+			isa = PBXGroup;
+			children = (
+				CEC40268217CAEA90072691C /* AddOwnPlacesViewController.swift */,
+				CE0D7086217A5CE900FE85F5 /* OwnPlaceViewController.swift */,
+			);
+			path = "Own place";
+			sourceTree = "<group>";
+		};
+		CE1E7C15217C8C3D00EB9E7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE44A22421A07AC2004273EE /* CaviarDreams-Black.ttf */,
+				CE44A22721A07AC3004273EE /* CaviarDreams-BlackItalic.ttf */,
+				CE44A21F21A07AC1004273EE /* CaviarDreams-Bold.ttf */,
+				CE44A22021A07AC1004273EE /* CaviarDreams-BoldItalic.ttf */,
+				CE44A22521A07AC2004273EE /* CaviarDreams-Hairline.ttf */,
+				CE44A21E21A07AC1004273EE /* CaviarDreams-HairlineItalic.ttf */,
+				CE44A22121A07AC2004273EE /* CaviarDreams-Italic.ttf */,
+				CE44A22321A07AC2004273EE /* CaviarDreams-Light.ttf */,
+				CE44A22621A07AC2004273EE /* CaviarDreams-LightItalic.ttf */,
+				CE44A22221A07AC2004273EE /* CaviarDreams.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE23F06621108A3400BDBEB5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE0D7085217A5CCE00FE85F5 /* Own place */,
+				CE0D7084217A5CC400FE85F5 /* Interactive place */,
+				CE0D7081217A5CA900FE85F5 /* Local Place */,
+				CE0D7080217A5C9700FE85F5 /* Interesting Place */,
+				CE0D707F217A5C9000FE85F5 /* Home */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -87,7 +220,11 @@
 			isa = PBXGroup;
 			children = (
 				CE62356A210B2EA800BAC601 /* Main.storyboard */,
+				CE0D708C217A5DA900FE85F5 /* ImageScan.storyboard */,
+				CE0D7088217A5D1600FE85F5 /* InterestingPlaces.storyboard */,
+				CE0D708A217A5D6500FE85F5 /* LocalPlaces.storyboard */,
 				CE62356F210B2EB700BAC601 /* LaunchScreen.storyboard */,
+				CE0D707D217A5AC400FE85F5 /* OwnPlaces.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -96,8 +233,12 @@
 			isa = PBXGroup;
 			children = (
 				CECC8208210F85D800F54C13 /* BubbleView.swift */,
+				CE25A7E1217A725300944719 /* MainCell.swift */,
 				CE2BB241210BA15E00723EAC /* InterestingPlace.swift */,
 				CEA6D9F9210F0D8D00159BDA /* PlaceCell.swift */,
+				CE25A7E3217A725300944719 /* Extensions.swift */,
+				CE1E7C13217C80E700EB9E7A /* GradientView.swift */,
+				CE0D708E217A5E8A00FE85F5 /* Helper.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -105,6 +246,7 @@
 		CE62355A210B2EA800BAC601 = {
 			isa = PBXGroup;
 			children = (
+				CE9D811D2157F21F00E57F86 /* TorunFilm.mp4 */,
 				CE623565210B2EA800BAC601 /* Toruński Przewodnik */,
 				CE623564210B2EA800BAC601 /* Products */,
 				FD51762C40B91D849F3588AB /* Pods */,
@@ -123,13 +265,16 @@
 		CE623565210B2EA800BAC601 /* Toruński Przewodnik */ = {
 			isa = PBXGroup;
 			children = (
+				CE1E7C15217C8C3D00EB9E7A /* Resources */,
 				CE23F06821108A6700BDBEB5 /* Utils */,
 				CE23F06721108A5700BDBEB5 /* Storyboards */,
 				CE23F06621108A3400BDBEB5 /* ViewControllers */,
 				CE623578210B2F6800BAC601 /* view */,
 				CE623566210B2EA800BAC601 /* AppDelegate.swift */,
 				CE62356D210B2EB600BAC601 /* Assets.xcassets */,
+				CEC40264217CA8E30072691C /* TorunskiPrzewodnik.xcdatamodeld */,
 				CEA6D9FB210F46B600159BDA /* PlacesMedia.xcassets */,
+				CE1D01672176666F006FE2CE /* GoogleService-Info.plist */,
 				CE623572210B2EB700BAC601 /* Info.plist */,
 			);
 			path = "Toruński Przewodnik";
@@ -214,9 +359,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA6D9FC210F46B600159BDA /* PlacesMedia.xcassets in Resources */,
+				CE0D708D217A5DA900FE85F5 /* ImageScan.storyboard in Resources */,
+				CE44A22921A07AD9004273EE /* CaviarDreams-BlackItalic.ttf in Resources */,
+				CE44A22F21A07AD9004273EE /* CaviarDreams-Light.ttf in Resources */,
 				CE623571210B2EB700BAC601 /* LaunchScreen.storyboard in Resources */,
+				CE44A22C21A07AD9004273EE /* CaviarDreams-Hairline.ttf in Resources */,
+				CE44A22E21A07AD9004273EE /* CaviarDreams-Italic.ttf in Resources */,
 				CE62356E210B2EB600BAC601 /* Assets.xcassets in Resources */,
+				CE0D7089217A5D1600FE85F5 /* InterestingPlaces.storyboard in Resources */,
+				CE394E8C2157FD6700E37D05 /* TorunFilm.mp4 in Resources */,
+				CE44A22A21A07AD9004273EE /* CaviarDreams-Bold.ttf in Resources */,
+				CE0D707E217A5AC400FE85F5 /* OwnPlaces.storyboard in Resources */,
 				CE62356C210B2EA800BAC601 /* Main.storyboard in Resources */,
+				CE44A22821A07AD9004273EE /* CaviarDreams-Black.ttf in Resources */,
+				CE44A22D21A07AD9004273EE /* CaviarDreams-HairlineItalic.ttf in Resources */,
+				CE1D01682176666F006FE2CE /* GoogleService-Info.plist in Resources */,
+				CE44A23021A07AD9004273EE /* CaviarDreams-LightItalic.ttf in Resources */,
+				CE0D708B217A5D6500FE85F5 /* LocalPlaces.storyboard in Resources */,
+				CE44A23121A07AD9004273EE /* CaviarDreams.ttf in Resources */,
+				CE44A22B21A07AD9004273EE /* CaviarDreams-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,15 +393,23 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Toruński Przewodnik/Pods-Toruński Przewodnik-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
-				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -275,15 +444,24 @@
 				CE23F07021108CF000BDBEB5 /* LocalPlacesViewController.swift in Sources */,
 				CEA6D9FA210F0D8D00159BDA /* PlaceCell.swift in Sources */,
 				CE623580210B3ADD00BAC601 /* InterestingPlacesView.swift in Sources */,
+				CE33ED532156C1B6000CDDC4 /* ImageScanViewController.swift in Sources */,
 				CE23F06E21108AD400BDBEB5 /* LocalPlaceChooseViewController.swift in Sources */,
 				CE623567210B2EA800BAC601 /* AppDelegate.swift in Sources */,
+				CEC40266217CA8E30072691C /* TorunskiPrzewodnik.xcdatamodeld in Sources */,
+				CE1B32F0218788AD0019AD02 /* WebViewViewController.swift in Sources */,
 				CE62357A210B2F8600BAC601 /* NavigationBar.swift in Sources */,
+				CE9B33EC212B0C1700F9A2D6 /* InterestingPlacesChooseViewController.swift in Sources */,
+				CE1E7C14217C80E700EB9E7A /* GradientView.swift in Sources */,
+				CE0D708F217A5E8A00FE85F5 /* Helper.swift in Sources */,
+				CE25A7E2217A725300944719 /* MainCell.swift in Sources */,
 				CE2E9BFB2111D7D10057D210 /* LocalPlaceARViewController.swift in Sources */,
-				CEA6D9F8210F0D6900159BDA /* PlacesPickController.swift in Sources */,
+				CE25A7E4217A725300944719 /* Extensions.swift in Sources */,
+				CEC40269217CAEA90072691C /* AddOwnPlacesViewController.swift in Sources */,
 				CE2BB242210BA15E00723EAC /* InterestingPlace.swift in Sources */,
 				CECC8209210F85D800F54C13 /* BubbleView.swift in Sources */,
 				CE62357E210B3A9F00BAC601 /* NavigationItem.swift in Sources */,
 				CE62357C210B396300BAC601 /* HomeViewController.swift in Sources */,
+				CE0D7087217A5CE900FE85F5 /* OwnPlaceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +608,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27WF3M3X85;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ARCL\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ChameleonFramework\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Motion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+				);
 				INFOPLIST_FILE = "Toruński Przewodnik/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,8 +641,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27WF3M3X85;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ARCL\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ChameleonFramework\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Motion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+				);
 				INFOPLIST_FILE = "Toruński Przewodnik/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,6 +689,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEC40264217CA8E30072691C /* TorunskiPrzewodnik.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEC40265217CA8E30072691C /* TorunskiPrzewodnik.xcdatamodel */,
+			);
+			currentVersion = CEC40265217CA8E30072691C /* TorunskiPrzewodnik.xcdatamodel */;
+			path = TorunskiPrzewodnik.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE62355B210B2EA800BAC601 /* Project object */;
 }

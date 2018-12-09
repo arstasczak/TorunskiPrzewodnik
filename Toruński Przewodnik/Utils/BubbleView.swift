@@ -20,6 +20,7 @@ extension UIImage {
         UIGraphicsBeginImageContext(view.frame.size)
         view.layer.render(in:UIGraphicsGetCurrentContext()!)
         let image = UIGraphicsGetImageFromCurrentImageContext()
+        image!.draw(in: CGRect(x: 0, y: 0, width: 200, height: 200))
         UIGraphicsEndImageContext()
         self.init(cgImage: image!.cgImage!)
     }

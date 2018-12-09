@@ -8,29 +8,29 @@
 
 import Foundation
 import UIKit
+import FontAwesome_swift
+import FirebaseDatabase
 
 class Places {
     static let instance = Places()
     
-    let places = [Place(lat: 53.01142, long: 18.61164, name: "Starówka", desc: "Najstarsza część Zespołu Staromiejskiego w Toruniu (pozostałe dwie to Nowe Miasto i zamek krzyżacki), ograniczona ulicami Fosa Staromiejska, pl. Teatralnym, ul. Podmurną i murami miejskimi od strony Wisły. Na Starym Mieście znajduje się większość najcenniejszych zabytków Torunia.", cellImage: UIImage(named: "starówka")!),
-                  Place(lat: 53.0115, long: 18.6026, name: "Planetarium im. Władysława Dziewulskiego", desc: "Centrum popularyzacji kosmosu w Toruniu.",  cellImage: UIImage(named: "planetarium")!),
-                  Place(lat: 53.0139, long: 18.6020, name: "CKK Jordanki", desc: "wielofunkcyjna sala koncertowo-kongresowa w Toruniu. Oficjalne otwarcie obiektu nastąpiło 12 grudnia 2015 roku. Centrum to jest siedzibą Toruńskiej Orkiestry Symfonicznej, a także głównej sceny Kujawsko-Pomorskiego Impresaryjnego Teatru Muzycznego.", cellImage: UIImage(named: "jordanki")!),
-                  Place(lat: 53.0104, long: 18.6123, name: "Teatr Baj Pomorski", desc: "Teatr w swojej działalności koncentruje się przede wszystkim na sztukach przeznaczonych dla dzieci, wykorzystując nie tylko lalki, lecz także sztukę animacji, najnowsze techniki multimedialne i tradycyjną grę aktorską", cellImage: UIImage(named: "bajpomorski")!),
-                  Place(lat: 53.0084, long: 18.6020, name: "Krzywa wieża w Toruniu", desc: "Jest to najciekawsza i najbardziej znana baszta toruńska. Poza tym stanowi najbardziej popularną budowlę architektoniczną Torunia i jedną z turystycznych atrakcji miasta, owianą licznymi legendami. Pochylona ku północy baszta z początku XIV wieku pochyliła się już najprawdopodobniej w tym samym stuleciu na skutek niestabilnego gruntu. Odchylenie od pionu wynosi 146 cm przy 15 m wysokości (od strony ulicy). Baszta stoi w linii murów miejskich i jako taka nie miała nigdy większego znaczenia obronnego Odgrywała rolę pomocniczej wieży strażniczej, jakich było w Toruniu wiele.",  cellImage: UIImage(named: "krzywawieza")!),
-                  ]
+    let places = [Place]()
     
-    let localPlaces = [LocalPlace(name: "Restauracja", cellImage: UIImage()),
-                       LocalPlace(name: "Hotel", cellImage: UIImage()),
-                       LocalPlace(name: "Kawiarnia", cellImage: UIImage()),
+    let localPlaces = [LocalPlace(name: "Restauracje", cellImage: UIImage.fontAwesomeIcon(name: .glass, textColor: UIColor.flatSkyBlueColorDark(), size: CGSize(width: 100, height: 100)), desc: "Lokalne restauracje"),
+                       LocalPlace(name: "Hotele", cellImage: UIImage.fontAwesomeIcon(name: .hotel, textColor: UIColor.flatSkyBlueColorDark(), size: CGSize(width: 100, height: 100)), desc: "Noclegi w Toruniu"),
+                       LocalPlace(name: "Kawiarnia", cellImage: UIImage.fontAwesomeIcon(name: .coffee, textColor: UIColor.flatSkyBlueColorDark(), size: CGSize(width: 100, height: 100)), desc: "Najlepsze kawy i słodkości"),
+                       LocalPlace(name: "Muzea", cellImage: UIImage.fontAwesomeIcon(name: .building, textColor: UIColor.flatSkyBlueColorDark(), size: CGSize(width: 100, height: 100)), desc: "Wystawy i eksponaty"),
+                       LocalPlace(name: "Galerie sztuki", cellImage: UIImage.fontAwesomeIcon(name: .image, textColor: UIColor.flatSkyBlueColorDark(), size: CGSize(width: 100, height: 100)), desc: "Artystyczne wystawy"),
+                       LocalPlace(name: "Galerie handlowe", cellImage: UIImage.fontAwesomeIcon(name: .shoppingBag, textColor: UIColor.flatSkyBlueColorDark(), size: CGSize(width: 100, height: 100)), desc: "Zakupy oraz rozrywka"),
                        ]
 }
 
-class Place {
-    private var latitude: Double
-    private var longtitude: Double
-    private var name: String
-    private var description: String
-    private var cellImage: UIImage
+class Place{
+    private var latitude: Double = 0
+    private var longtitude: Double = 0
+    private var name: String = ""
+    private var description: String = ""
+    private var cellImage: UIImage = UIImage()
     
     init(lat: Double, long: Double, name: String, desc: String, cellImage: UIImage) {
         self.description = desc
@@ -40,11 +40,28 @@ class Place {
         self.cellImage = cellImage
     }
     
-    public func getName() -> String{
+    init?(snapshot: DataSnapshot) {
+        guard
+            let value = snapshot.value as? [String: AnyObject],
+            let name = value["name"] as? String,
+            let description = value["description"] as? String,
+            let latitude = value["latitude"] as? Double,
+            let longtitude = value["longtitude"] as? Double else {
+                return
+        }
+        
+        self.name = name
+        self.description = description
+        self.latitude = latitude
+        self.longtitude = longtitude
+        self.cellImage = UIImage.fontAwesomeIcon(name: .map, textColor: UIColor.flatSkyBlueColorDark(), size: CGSize(width: 75, height: 75))
+    }
+    
+    public func getName() -> String {
         return self.name
     }
     
-    public func getDesc() -> String{
+    public func getDesc() -> String {
         return self.description
     }
     
@@ -56,7 +73,6 @@ class Place {
         return self.longtitude
     }
     
-    
     public func getCellImage() -> UIImage {
         return self.cellImage
     }
@@ -66,10 +82,12 @@ class LocalPlace {
 
     private var name: String
     private var cellImage: UIImage
+    private var description: String
     
-    init(name: String,cellImage: UIImage) {
+    init(name: String,cellImage: UIImage, desc: String) {
         self.name = name
         self.cellImage = cellImage
+        self.description = desc
     }
     
     public func getName() -> String{
@@ -78,6 +96,10 @@ class LocalPlace {
     
     public func getCellImage() -> UIImage {
         return self.cellImage
+    }
+    
+    public func getDesc() -> String {
+    return self.description
     }
 
 }

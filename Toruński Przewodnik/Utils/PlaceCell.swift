@@ -7,51 +7,61 @@
 //
 
 import UIKit
+import CoreData
 
 class PlaceCell: UITableViewCell {
 
-    @IBOutlet weak var infoButton: UIButton!
-    @IBOutlet weak var placeDescriptionTextView: UITextView!
     @IBOutlet weak var placeImageView: UIImageView!
     @IBOutlet weak var placeNameLabel: UILabel!
+    @IBOutlet weak var placeDescLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     
     func updateCell(place: Place) {
-        self.placeDescriptionTextView.text = place.getDesc()
+        self.placeDescLabel.text = place.getDesc()
         self.placeImageView.image = place.getCellImage()
         self.placeNameLabel.text = place.getName()
     }
 
 }
 
-class LocalPlaceCell: UITableViewCell {
-    
-    @IBOutlet weak var localPlaceImageView: UIImageView!
-    @IBOutlet weak var localPlaceNameLabel: UILabel!
+class LocalPlaceCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
+    @IBOutlet weak var localPlaceImageView: UIImageView!
+    @IBOutlet weak var localPlaceNameLabel: UILabel!
+    @IBOutlet weak var localPlaceDescLabel: UILabel!
     
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-        
-        // Configure the view for the selected state
-    }
+    
     
     func updateCell(place: LocalPlace) {
         self.localPlaceImageView.image = place.getCellImage()
         self.localPlaceNameLabel.text = place.getName()
+        self.localPlaceDescLabel.text = place.getDesc()
+
+    }
+    
+    func updateCell(place: Place) {
+        self.localPlaceImageView.image = place.getCellImage()
+        self.localPlaceNameLabel.text = place.getName()
+        self.localPlaceDescLabel.text = place.getDesc()
+        self.localPlaceImageView.layer.cornerRadius = 6
+        self.localPlaceImageView.layer.masksToBounds = true
+    }
+    
+    func updateCellWithCoreData(place: NSManagedObject) {
+      /*  if let imageData: NSData = (place.value(forKey: "placeImage") as? NSData){
+            self.localPlaceImageView.image = UIImage(data: imageData as Data, scale: 0.1)
+        }*/
+        self.localPlaceNameLabel.text = place.value(forKey: "placeName") as? String
+        self.localPlaceDescLabel.text = place.value(forKey: "placeDescription") as? String
     }
     
 }
